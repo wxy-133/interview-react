@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "home": "主页",
+    "faq": "常见问题",
+    "about":"过于我们",
+    "products":"产品",
+    "certificate":"证书",
+    "news":"新闻"
+  },
+  "content":{
+    "word":"每日一言",
+    "font":"所谓灿烂的人生不过是欲望的囚徒——叔本华",
+    "source":"来源网络"
+  },
+  "language": {
+    "chinese": "中文",
+    "english": "英语"
+  }
+}

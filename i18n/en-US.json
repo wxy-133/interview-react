@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "home": "Home",
+    "faq": "FAQ",
+    "about":"About us",
+    "products":"Products",
+    "certificate":"Certificate",
+    "news":"News"
+  },
+  "content":{
+    "word":"word of the day",
+    "font":"The so-called brilliant life is but a prisoner of desire - Schopenhauer",
+    "source":"source network"
+  },
+  "language": {
+    "chinese": "chinese",
+    "english": "english"
+  }
+}

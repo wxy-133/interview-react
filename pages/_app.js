@@ -3,7 +3,7 @@ import { theme } from '@chakra-ui/pro-theme'
 import { RecoilRoot } from 'recoil'
 
 import Layout from '../components/Layout.js'
-
+import './style.css'
 import '../i18n'
 
 export default function MyApp({ Component, pageProps }) {

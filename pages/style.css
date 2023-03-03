@@ -1,0 +1,19 @@
+.header {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 180px;
+    box-shadow: -1px 1px 10px gray
+}
+
+.lists {
+    padding: 20px 300px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.lists .chakra-linkbox{
+    margin-bottom: 20px;
+}

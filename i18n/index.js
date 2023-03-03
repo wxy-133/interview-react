@@ -3,8 +3,8 @@ import { initReactI18next } from 'react-i18next'
 
 import LanguageDetector from 'i18next-browser-languagedetector'
 
-import { all as zhCnTranslation } from './zh-CN'
-import { all as enUsTranslation } from './en-US'
+import en from './en-US.json'
+import zh from './zh-CN.json'
 
 i18n
   // load translation using http -> see /public/locales (i.e. https://github.com/i18next/react-i18next/tree/master/example/react/public/locales)
@@ -26,9 +26,10 @@ i18n
     },
 
     resources: {
-      'zh-CN': zhCnTranslation,
-      'en-US': enUsTranslation,
+      en: { translation: en },
+      zh: { translation: zh },
     },
+    fallbackLng: 'en',
     detection: {
       // order and from where user language should be detected
       order: ['querystring'],
